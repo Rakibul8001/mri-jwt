@@ -1,5 +1,5 @@
 {
-  "name": "mri-jwt",
+  "name": "@mdrakibul8001/jwt",
   "version": "1.0.0",
   "description": "JWT authentication with axios for react or nextjs",
   "author": "Md Rakibul Islam",
@@ -15,8 +15,8 @@
   "files": [
     "dist"
   ],
-
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -50,5 +50,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.3"
   }
 }
