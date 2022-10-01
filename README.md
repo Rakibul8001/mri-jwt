@@ -4,7 +4,10 @@ JWT authentication with axios in nextjs.
 
 # Installation
 
+```
 npm i mri-jwt
+
+```
 
 # Usage
 
